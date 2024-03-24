@@ -1,5 +1,5 @@
 print("I Know Your 100d Birthday")
-val1=int(input("What Yeare is Today?: "))
+val1=int(input("What Year is Today?: "))
 val2=int(input("What Year Were You Born?: "))
 val3=int(input("Month Your Born?: "))
 print("You will be 100d years old in year")
