@@ -1,7 +1,7 @@
 cd /
 :top
 cls
-mode con: lines=6 cols=30
+mod con: lines=6 cols=30
 title "python_apk"
 @cecho 
 @set "py=https://www.apkmirror.com/apk/iiec/pydroid-3-ide-for-python-3/pydroid-3-ide-for-python-3-7-2-release/pydroid-3-ide-for-python-3-7-2_arm-android-apk-download/"
