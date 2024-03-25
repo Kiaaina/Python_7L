@@ -1,4 +1,4 @@
-print("Whats Your Dogs Age?")
+print("\033[1;31;40mWhats Your Dogs Age? ")
 val0=int(input("The Year Today?: "))
 val1=int(input("The Year your Dog was Born?: "))
 val2=int(input("Month Dog is Born?#: "))
