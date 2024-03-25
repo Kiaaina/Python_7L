@@ -6,6 +6,8 @@ val3=("ivory")
 val4=("navyblue")
 val5=("black")
 val6=("skyblue")
+val7=("black")
+val8=("red")
 # globally declare the expression variable 
 expression = "" 
   
@@ -74,7 +76,7 @@ if __name__ == "__main__":
     gui.title("Simple Calculator") 
   
     # set the configuration of GUI window 
-    gui.geometry("275x125") 
+    gui.geometry("200x200") 
   
     # StringVar() is the variable class 
     # we create an instance of this class 
@@ -87,7 +89,7 @@ if __name__ == "__main__":
     # grid method is used for placing 
     # the widgets at respective positions 
     # in table like structure . 
-    expression_field.grid(columnspan=10, ipadx=100) 
+    expression_field.grid(columnspan=10, ipadx=10) 
   
     equation.set('enter your expression') 
   
@@ -156,7 +158,7 @@ if __name__ == "__main__":
                    command=equalpress, height=1, width=7) 
     equal.grid(row=5, column=2) 
   
-    clear = Button(gui, text='Clear', fg=val5, bg=val6, 
+    clear = Button(gui, text='Clear', fg=val7, bg=val8, 
                    command=clear, height=1, width=7) 
     clear.grid(row=5, column=1) 
 
